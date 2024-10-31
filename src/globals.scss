@@ -1,0 +1,14 @@
+// globals.scss
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+// Global styles
+body {
+    font-family: 'DM Sans', sans-serif; // Apply DM Sans globally
+    margin: 0; // Reset margin
+    padding: 0; // Reset padding
+    box-sizing: border-box; // Better box-sizing model
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; // Ensure all elements use the same box-sizing
+}

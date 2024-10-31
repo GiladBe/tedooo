@@ -1,0 +1,56 @@
+/* src/components/NavBar.module.scss */
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 58px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+
+    .navbar-content {
+        display: flex;
+        justify-content: space-between;
+        width: 1440px;
+
+        .logo-search {
+            display: flex;
+            margin-left: 160px;
+            align-items: center;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .search-bar {
+                margin-left: 12px;
+            }
+        }
+
+        .tabs {
+            display: flex;
+            margin-right: 172px;
+            align-items: center;
+
+            .tab {
+                margin-right: 24px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 16px;
+
+                span {
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
